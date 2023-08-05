@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [Excelr_Assignments]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="testComponents.Listeners_Assignments"/>
+  </listeners>
+  <test thread-count="3" parallel="tests" name="Module3(failed)">
+    <classes>
+      <class name="selenium_Module3.Assignment3">
+        <methods>
+          <include name="tearDown"/>
+          <include name="fillForm"/>
+          <include name="clickForms"/>
+          <include name="clickPracticeForm"/>
+          <include name="driverInitialization"/>
+        </methods>
+      </class> <!-- selenium_Module3.Assignment3 -->
+    </classes>
+  </test> <!-- Module3(failed) -->
+  <test thread-count="3" parallel="tests" name="Module2(failed)">
+    <classes>
+      <class name="selenium_Module2.Assignment2_3">
+        <methods>
+          <include name="handleWindow"/>
+          <include name="tearDown"/>
+          <include name="framesHandle"/>
+          <include name="mouseActions"/>
+          <include name="driverInitialization"/>
+        </methods>
+      </class> <!-- selenium_Module2.Assignment2_3 -->
+    </classes>
+  </test> <!-- Module2(failed) -->
+  <test thread-count="3" parallel="tests" name="Module4(failed)">
+    <classes>
+      <class name="selenium_Module4.Assignment2">
+        <methods>
+          <include name="retrieveAllHeaders"/>
+          <include name="tearDown"/>
+          <include name="getQuote"/>
+          <include name="technologies"/>
+          <include name="driverInitialization"/>
+        </methods>
+      </class> <!-- selenium_Module4.Assignment2 -->
+    </classes>
+  </test> <!-- Module4(failed) -->
+</suite> <!-- Failed suite [Excelr_Assignments] -->

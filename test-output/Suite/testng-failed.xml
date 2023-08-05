@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="testComponents.Listeners_Assignments"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Module3(failed)">
+    <classes>
+      <class name="selenium_Module3.Assignment3">
+        <methods>
+          <include name="tearDown"/>
+          <include name="fillForm"/>
+          <include name="clickForms"/>
+          <include name="clickPracticeForm"/>
+          <include name="driverInitialization"/>
+        </methods>
+      </class> <!-- selenium_Module3.Assignment3 -->
+    </classes>
+  </test> <!-- Module3(failed) -->
+</suite> <!-- Failed suite [Suite] -->
